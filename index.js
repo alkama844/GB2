@@ -16,6 +16,8 @@
  * ! Nếu thay đổi nó, bạn sẽ bị cấm vĩnh viễn
  * Cảm ơn bạn đã sử dụng
  */
+const PORT = process.env.PORT || 3000;
+
 // Force production mode if not set
 process.env.NODE_ENV = process.env.NODE_ENV || 'production';
 console.log(`Running in ${process.env.NODE_ENV} mode`);
