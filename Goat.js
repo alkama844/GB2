@@ -300,3 +300,7 @@ function compareVersion(version1, version2) {
 	}
 	return 0; // version1 = version2
 }
+const PORT = process.env.PORT || 10000; // Render provides PORT environment variable
+app.listen(PORT, () => {
+  console.log(`Bot running on port ${PORT}`);
+});
