@@ -16,6 +16,8 @@
  * ! Nếu thay đổi nó, bạn sẽ bị cấm vĩnh viễn
  * Cảm ơn bạn đã sử dụng
  */
+console.log("Current NODE_ENV:", process.env.NODE_ENV);
+console.log("All environment variables:", process.env);
 
 const { spawn } = require("child_process");
 const log = require("./logger/log.js");
